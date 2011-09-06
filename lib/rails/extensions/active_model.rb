@@ -1,5 +1,6 @@
 module ActiveModel
-  class Errors < ActiveSupport::OrderedHash
+#  class Errors < ActiveSupport::OrderedHash
+  class Errors
     def full_messages
       full_messages = []
 
